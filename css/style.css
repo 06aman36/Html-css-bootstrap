@@ -1,0 +1,44 @@
+body{
+
+    background-size: cover;
+}
+
+.div1{
+
+    margin-top: 100px;
+}
+
+.active{
+    background:linear-gradient(45deg,black,red);
+    padding: 15px;
+}
+
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    background: linear-gradient(45deg,red,black);
+    padding: 12px;
+    margin-top: -80px;
+}
+
+.kumar:hover{
+
+background: linear-gradient(45deg,lightblue,lightgray);
+
+}
+
+@media only screen and (max-width: 320px) {
+    /* For mobile phones: */
+    [class*="z"] {
+        width: 100%;
+    }
+}
+.abc{
+    background: url("../img/background2.jpg");
+    padding: 4rem;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
