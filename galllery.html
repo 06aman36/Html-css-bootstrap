@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Css & Bootstrap</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/mdb.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+
+        .gallery {
+            -webkit-column-count: 3;
+            -moz-column-count: 3;
+            column-count: 3;
+            -webkit-column-width: 33%;
+            -moz-column-width: 33%;
+            column-width: 33%; }
+        .gallery .pics {
+            -webkit-transition: all 350ms ease;
+            transition: all 350ms ease; }
+        .gallery .animation {
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1); }
+
+        @media (max-width: 450px) {
+            .gallery {
+                -webkit-column-count: 1;
+                -moz-column-count: 1;
+                column-count: 1;
+                -webkit-column-width: 100%;
+                -moz-column-width: 100%;
+                column-width: 100%;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .btn.filter {
+                padding-left: 1.1rem;
+                padding-right: 1.1rem;
+            }
+        }
+
+
+        .aman{
+
+            margin-top: 80px;
+        }
+
+        img{
+            border-radius: 50px;
+        }
+
+        button:hover{
+            background: linear-gradient(45deg,coral,darkred);
+
+        }
+    </style>
+
+
+</head>
+<body class="bg-danger" style="background: url('./img/hbd2.jpg');background-size: cover;">
+<nav class="navbar bg-dark fixed-top d-inline-block">
+    <img src="./img/a.gif" alt="logo" height="60px" width="60px">
+    <a href="./index.html" class="text-decoration-none btn btn-deep-purple">Home</a>
+    <a href="./About.html" class="btn btn-deep-purple">only 4 u</a>
+    <a href="./memories.html" class="btn btn-deep-purple">Memories</a>
+    <a href="./galllery.html" class="btn btn-deep-purple active">Gallery</a>
+
+</nav>
+
+
+<!-- Grid row -->
+<div class="row aman" >
+
+    <!-- Grid column -->
+    <div class="col-md-12 d-flex justify-content-center mb-5">
+
+        <button type="button" class="btn btn-danger waves-effect filter" data-rel="all">All</button>
+        <button type="button" class="btn btn-danger waves-effect filter" data-rel="1">Family-Gathering</button>
+        <button type="button" class="btn btn-danger waves-effect filter" data-rel="2">Memorable-Moments</button>
+
+    </div>
+    <!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+
+<!-- Grid row -->
+<div class="gallery" id="gallery">
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 2">
+        <img class="img-fluid" src="./img/img-4.JPG" alt="Card image cap">
+    </div>
+    <!-- Grid column -->
+
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 2">
+        <img class="img-fluid" src="./img/bro/withFamily/20160818_115449.jpg" alt="Card image cap">
+    </div>
+    <!-- Grid column -->
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 2">
+        <img class="img-fluid" src="./img/img-4.JPG" alt="Card image cap">
+    </div>
+    <!-- Grid column -->
+
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 2">
+        <img class="img-fluid" src="./img/img-5.JPG" alt="Card image cap">
+    </div>
+    <!-- Grid column -->
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 2">
+        <img class="img-fluid" src="./img/img-6.JPG" alt="Card image cap">
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 1">
+        <img class="img-fluid" src="./img/bro/withFamily/DSC_0104.JPG" alt="Card image cap">
+    </div>
+    <!-- Grid column -->
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 1">
+        <img class="img-fluid" src="./img/bro/withFamily/DSC_0562.JPG" alt="Card image cap">
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 1">
+        <img class="img-fluid" src="./img/bro/withFamily/DSC_0144.JPG" alt="Card image cap">
+    </div>
+    <!-- Grid column -->
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 2">
+        <img class="img-fluid" src="./img/img-6.JPG" alt="Card image cap">
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 2">
+        <img class="img-fluid" src="./img/bro/withFamily/DSC_0168.JPG" alt="Card image cap">
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 2">
+        <img class="img-fluid" src="./img/bro/withFamily/DSC_0415.JPG" alt="Card image cap">
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 1">
+        <img class="img-fluid" src="./img/bro/withFamily/DSC_0562.JPG" alt="Card image cap">
+    </div>
+    <!-- Grid column -->
+
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 1">
+        <img class="img-fluid" src="./img/img-1.JPG" alt="Card image cap">
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 1">
+        <img class="img-fluid" src="./img/bro/withFamily/DSC_0562.JPG" alt="Card image cap">
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 1">
+        <img class="img-fluid" src="./img/img-2.JPG" alt="Card image cap">
+    </div>
+    <!-- Grid column -->
+
+
+    <!-- Grid column -->
+    <div class="mb-3 pics animation all 1">
+        <img class="img-fluid" src="./img/img-3.JPG" alt="Card image cap">
+    </div>
+    <!-- Grid column -->
+
+
+
+</div>
+<!-- Grid row -->
+
+<audio src="./img/Happy-Birthday-Song-Download.mp3" controls autoplay loop class="animated rollOut"> </audio>
+
+
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/mdb.js"></script>
+
+<script>
+
+    $(function() {
+        var selectedClass = "";
+        $(".filter").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#gallery").fadeTo(100, 0.1);
+            $("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
+            setTimeout(function() {
+                $("."+selectedClass).fadeIn().addClass('animation');
+                $("#gallery").fadeTo(300, 1);
+            }, 300);
+        });
+    });
+
+</script>
+
+
+
+
+
+</body>
+</html>
