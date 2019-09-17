@@ -11,13 +11,38 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="bg-danger" style="background: url('./img/hbd3.jpg');background-size: cover;" >
-<nav class="navbar bg-dark fixed-top d-inline-block ">
-    <img src="./img/a.gif" alt="logo" height="60px" width="60px">
-    <a href="./index.html" class="text-decoration-none btn btn-deep-purple">Home</a>
-    <a href="./About.html" class="btn btn-deep-purple">only 4 u</a>
-    <a href="./memories.html" class="btn btn-deep-purple active">Memories</a>
-    <a href="./galllery.html" class="btn btn-deep-purple">Gallery</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a href="./index.html" class="btn btn-deep-purple text-decoration-none">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="./About.html" class="btn btn-deep-purple">only 4 u</a>
+            </li>
+            <li class="nav-item">
+
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Click Here
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle btn btn-deep-purple text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select Item
+                </a>
+                <div class="dropdown-menu bg-warning" aria-labelledby="navbarDropdown">
+                    <a href="./memories.html" class="btn btn-deep-purple">Memories</a>
+                    <a href="./galllery.html" class="btn btn-deep-purple">Gallery</a>
+                    <div class="dropdown-divider"> </div>
+                    <a class="btn btn-deep-purple" href="">Feedback</a>
+                </div>
+            </li>
+        </ul>
+    </div>
 </nav>
 
 
